@@ -6,12 +6,12 @@
 $data['username'] = (isset($data['username']) ? $data['username'] : 'guest');
 ```
 
-## PHP 7
+## PHP 7 - Coalesce
 ```
 $username = $_SESSION['username'] ?? 'guest';
 ```
 
-## PHP 7.4 New
+## PHP 7.4 Coalesce Assignment
 ```
 $data['username'] ??= 'guest'
 ```
